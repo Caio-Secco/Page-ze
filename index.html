@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Zé dos Parafusos | Parafusos, Fixadores, Abrasivos, EPIs e Ferramentas</title>
+  <meta name="description" content="Zé dos Parafusos: especialistas em parafusos, fixadores, abrasivos, EPIs, ferramentas e muito mais. Atendimento rápido para indústria, obra e oficina." />
+  <link rel="icon" type="image/png" href="img/favicon.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ===== HEADER ===== -->
+  <!-- Sombra/luz que segue o cursor -->
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="Zé dos Parafusos - início">
+        <img class="logo__img" src="img/logo.png" alt="Zé dos Parafusos" />
+        <span class="logo__icon">
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <polygon points="20,2 36,11 36,29 20,38 4,29 4,11" fill="currentColor"/>
+            <circle cx="20" cy="20" r="7" fill="#0A2A66"/>
+            <path d="M16 20h8M20 16v8" stroke="#FFC61A" stroke-width="2.4" stroke-linecap="round"/>
+          </svg>
+        </span>
+        <span class="logo__text">Zé dos <strong>Parafusos</strong></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Menu principal">
+        <p class="nav__title">Menu</p>
+        <div class="nav__list">
+          <span class="nav__indicator" aria-hidden="true"></span>
+          <a href="#inicio" class="nav__link active"><span class="nav__num">01</span>Início</a>
+          <a href="#produtos" class="nav__link"><span class="nav__num">02</span>Produtos</a>
+          <a href="#diferenciais" class="nav__link"><span class="nav__num">03</span>Diferenciais</a>
+          <a href="#depoimentos" class="nav__link"><span class="nav__num">04</span>Clientes</a>
+          <a href="#contato" class="nav__link"><span class="nav__num">05</span>Contato</a>
+          <a href="#localizacao" class="nav__link"><span class="nav__num">06</span>Localização</a>
+        </div>
+        <a href="https://wa.me/5548996625001?text=Ol%C3%A1%2C%20Z%C3%A9%20dos%20Parafusos!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="btn btn--yellow nav__cta">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+          Fazer orçamento
+        </a>
+        <div class="nav__footer">
+          <img src="img/ze.png" alt="" class="nav__mascot" loading="lazy" />
+          <div class="nav__contact">
+            <strong>Fale com o Zé</strong>
+            <a href="https://wa.me/5548996625001" target="_blank" rel="noopener">(48) 99662-5001</a>
+            <a href="https://maps.app.goo.gl/k7Ko97UMEH7B2he26" target="_blank" rel="noopener">Morrotes, Tubarão - SC</a>
+          </div>
+        </div>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+  <div class="nav-backdrop" id="navBackdrop" aria-hidden="true"></div>
+
+  <main>
+    <!-- ===== HERO ===== -->
+    <section class="hero" id="inicio">
+      <div class="hero__bg" aria-hidden="true">
+        <div class="hero__grid"></div>
+        <div class="hero__blob hero__blob--1"></div>
+        <div class="hero__blob hero__blob--2"></div>
+      </div>
+
+      <div class="container hero__inner">
+        <div class="hero__content reveal">
+          <span class="badge"><span class="badge__dot"></span> Tudo para fixação e segurança</span>
+          <h1 class="hero__title">
+            O parafuso certo,<br />
+            <span class="highlight">na hora certa.</span>
+          </h1>
+          <p class="hero__text">
+            Parafusos, fixadores, abrasivos, EPIs, ferramentas e muito mais.
+            Atendemos indústrias, obras, oficinas e você, com estoque amplo e entrega rápida.
+          </p>
+          <div class="hero__actions">
+            <a href="#contato" class="btn btn--yellow btn--lg">
+              Solicitar orçamento
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </a>
+            <a href="#produtos" class="btn btn--ghost btn--lg">Ver produtos</a>
+          </div>
+
+          <ul class="hero__trust">
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Pronta entrega</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Atacado e varejo</li>
+            <li><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12l5 5L20 7" fill="none" stroke="currentColor" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/></svg> Marcas de confiança</li>
+          </ul>
+        </div>
+
+        <div class="hero__visual reveal" data-delay="150">
+          <div class="hero__card hero__card--main">
+            <img class="mascot" src="img/ze.png" alt="Zé, o mascote da Zé dos Parafusos" />
+            <div class="bolt" aria-hidden="true">
+              <svg viewBox="0 0 200 320">
+                <defs>
+                  <linearGradient id="boltMetal" x1="0" x2="1">
+                    <stop offset="0" stop-color="#cfd8e6"/>
+                    <stop offset=".45" stop-color="#ffffff"/>
+                    <stop offset="1" stop-color="#8fa1bd"/>
+                  </linearGradient>
+                  <linearGradient id="boltHead" x1="0" x2="1">
+                    <stop offset="0" stop-color="#FFB800"/>
+                    <stop offset=".5" stop-color="#FFE07A"/>
+                    <stop offset="1" stop-color="#E0A000"/>
+                  </linearGradient>
+                </defs>
+                <polygon points="30,20 170,20 190,55 170,90 30,90 10,55" fill="url(#boltHead)"/>
+                <rect x="70" y="90" width="60" height="210" rx="6" fill="url(#boltMetal)"/>
+                <g stroke="#7d8fab" stroke-width="4" stroke-linecap="round" opacity=".7">
+                  <line x1="70" y1="120" x2="130" y2="132"/>
+                  <line x1="70" y1="145" x2="130" y2="157"/>
+                  <line x1="70" y1="170" x2="130" y2="182"/>
+                  <line x1="70" y1="195" x2="130" y2="207"/>
+                  <line x1="70" y1="220" x2="130" y2="232"/>
+                  <line x1="70" y1="245" x2="130" y2="257"/>
+                  <line x1="70" y1="270" x2="130" y2="282"/>
+                </g>
+                <polygon points="70,300 130,300 100,318" fill="#8fa1bd"/>
+              </svg>
+            </div>
+          </div>
+
+          <div class="hero__card hero__card--float hero__card--stat">
+            <span class="stat__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </span>
+            <div>
+              <strong>Qualidade</strong>
+              <small>em cada peça</small>
+            </div>
+          </div>
+
+          <div class="hero__card hero__card--float hero__card--rating">
+            <div class="stars" aria-label="Avaliação 5 de 5">★★★★★</div>
+            <small>Clientes satisfeitos</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== MARQUEE ===== -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <span>Parafusos</span><i>✦</i><span>Porcas e Arruelas</span><i>✦</i><span>Buchas</span><i>✦</i>
+        <span>Abrasivos</span><i>✦</i><span>EPIs</span><i>✦</i><span>Ferramentas</span><i>✦</i>
+        <span>Brocas</span><i>✦</i><span>Rebites</span><i>✦</i><span>Químicos</span><i>✦</i>
+        <span>Parafusos</span><i>✦</i><span>Porcas e Arruelas</span><i>✦</i><span>Buchas</span><i>✦</i>
+        <span>Abrasivos</span><i>✦</i><span>EPIs</span><i>✦</i><span>Ferramentas</span><i>✦</i>
+        <span>Brocas</span><i>✦</i><span>Rebites</span><i>✦</i><span>Químicos</span><i>✦</i>
+      </div>
+    </div>
+
+    <!-- ===== PRODUTOS ===== -->
+    <section class="section" id="produtos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Nossos produtos</span>
+          <h2 class="section__title">Tudo o que você precisa <span class="highlight">em um só lugar</span></h2>
+          <p class="section__text">Linha completa para indústria, construção civil, manutenção e oficinas.</p>
+        </div>
+
+        <div class="filters reveal" role="tablist" aria-label="Filtrar produtos">
+          <button class="filter active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="filter" data-filter="fixacao" role="tab" aria-selected="false">Fixação</button>
+          <button class="filter" data-filter="abrasivos" role="tab" aria-selected="false">Abrasivos</button>
+          <button class="filter" data-filter="epis" role="tab" aria-selected="false">EPIs</button>
+          <button class="filter" data-filter="ferramentas" role="tab" aria-selected="false">Ferramentas</button>
+        </div>
+
+        <div class="products" id="products">
+          <!-- Cards gerados via JS (js/main.js) -->
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DIVISOR: PILARES DA MARCA ===== -->
+    <section class="pillars" aria-label="Nossos pilares">
+      <div class="pillars__watermark" aria-hidden="true">
+        <span>ZÉ DOS PARAFUSOS · ZÉ DOS PARAFUSOS · ZÉ DOS PARAFUSOS · ZÉ DOS PARAFUSOS ·&nbsp;</span>
+        <span>ZÉ DOS PARAFUSOS · ZÉ DOS PARAFUSOS · ZÉ DOS PARAFUSOS · ZÉ DOS PARAFUSOS ·&nbsp;</span>
+      </div>
+      <div class="container pillars__grid">
+        <article class="pillar reveal">
+          <span class="pillar__icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </span>
+          <h3>Qualidade</h3>
+          <p>Peças de marcas reconhecidas, que aguentam o serviço pesado.</p>
+        </article>
+        <i class="pillar__sep" aria-hidden="true"></i>
+        <article class="pillar reveal" data-delay="120">
+          <span class="pillar__icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="14" y="3" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><rect x="3" y="14" width="7" height="7" rx="1.5" fill="none" stroke="currentColor" stroke-width="2"/><path d="M17.5 14v7M14 17.5h7" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Variedade</h3>
+          <p>Do parafuso ao EPI, a linha completa num só lugar.</p>
+        </article>
+        <i class="pillar__sep" aria-hidden="true"></i>
+        <article class="pillar reveal" data-delay="240">
+          <span class="pillar__icon">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 11l3-3 2 1 3-3 4 4-4 4-1-1-3 3-2-1-2 2-3-3z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M3 12l3 3M21 12l-3 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+          </span>
+          <h3>Confiança</h3>
+          <p>Atendimento de quem entende e indica a peça certa.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===== DIFERENCIAIS ===== -->
+    <section class="section section--alt" id="diferenciais">
+      <div class="container features">
+        <div class="features__intro reveal">
+          <span class="eyebrow">Por que o Zé?</span>
+          <h2 class="section__title">Mais que uma loja,<br /><span class="highlight">um parceiro de obra.</span></h2>
+          <p class="section__text">
+            A gente entende de fixação. Ajudamos você a escolher a peça certa, com preço justo
+            e entrega no prazo, sem enrolação.
+          </p>
+          <a href="#contato" class="btn btn--blue">Fale com um especialista</a>
+        </div>
+
+        <div class="features__grid">
+          <article class="feature reveal">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 7h11v9H3zM14 10h4l3 3v3h-7z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><circle cx="7" cy="17.5" r="1.8" fill="currentColor"/><circle cx="17.5" cy="17.5" r="1.8" fill="currentColor"/></svg>
+            </div>
+            <h3>Entrega rápida</h3>
+            <p>Logística ágil para sua obra ou indústria não parar.</p>
+          </article>
+          <article class="feature reveal" data-delay="100">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8.5 12l2.5 2.5 4.5-5" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Qualidade garantida</h3>
+            <p>Trabalhamos apenas com marcas reconhecidas e certificadas.</p>
+          </article>
+          <article class="feature reveal" data-delay="200">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5M4 19h16M8 15l4-4 3 3 5-6" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </div>
+            <h3>Preço de atacado</h3>
+            <p>Condições especiais para empresas e compras em volume.</p>
+          </article>
+          <article class="feature reveal" data-delay="300">
+            <div class="feature__icon">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v11H8l-4 4z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/><path d="M8 10h8M8 13h5" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+            </div>
+            <h3>Atendimento técnico</h3>
+            <p>Equipe que entende do assunto para indicar a melhor solução.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== DEPOIMENTOS ===== -->
+    <section class="section" id="depoimentos">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="eyebrow">Depoimentos</span>
+          <h2 class="section__title">Quem compra, <span class="highlight">recomenda</span></h2>
+        </div>
+
+        <div class="testimonials reveal">
+          <div class="testimonials__track" id="testimonialsTrack">
+            <figure class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Sempre acho tudo que preciso pra manutenção da fábrica. Atendimento rápido e preço justo.”</blockquote>
+              <figcaption><span class="avatar">RM</span><div><strong>Ricardo M.</strong><small>Gerente de manutenção</small></div></figcaption>
+            </figure>
+            <figure class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>“Os EPIs chegaram no dia seguinte, certinho. Virou nosso fornecedor oficial nas obras.”</blockquote>
+              <figcaption><span class="avatar">AL</span><div><strong>Ana L.</strong><small>Engenheira civil</small></div></figcaption>
+            </figure>
+            <figure class="testimonial">
+              <div class="stars">★★★★★</div>
+              <blockquote>“O pessoal sabe indicar o parafuso certo para cada aplicação. Isso faz toda a diferença.”</blockquote>
+              <figcaption><span class="avatar">JP</span><div><strong>João P.</strong><small>Serralheiro</small></div></figcaption>
+            </figure>
+          </div>
+          <div class="testimonials__dots" id="testimonialsDots" aria-label="Navegação dos depoimentos"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+      <div class="container cta__inner reveal">
+        <div>
+          <h2>Precisa de um orçamento rápido?</h2>
+          <p>Mande sua lista pelo WhatsApp e receba a resposta em minutos.</p>
+        </div>
+        <a href="https://wa.me/5548996625001?text=Ol%C3%A1%2C%20Z%C3%A9%20dos%20Parafusos!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="btn btn--blue btn--lg">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+          Chamar no WhatsApp
+        </a>
+      </div>
+    </section>
+
+    <!-- ===== CONTATO ===== -->
+    <section class="section" id="contato">
+      <div class="container contact">
+        <div class="contact__info reveal">
+          <span class="eyebrow">Contato</span>
+          <h2 class="section__title">Vamos <span class="highlight">conversar?</span></h2>
+          <p class="section__text">Preencha o formulário e nossa equipe retorna com seu orçamento.</p>
+
+          <ul class="contact__list">
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9.5" r="2.5" fill="currentColor"/></svg></span>
+              <div><strong>Endereço</strong><span>Rua São João - Morrotes<br />Tubarão - SC, 88708-025<br /><a href="https://maps.app.goo.gl/k7Ko97UMEH7B2he26" target="_blank" rel="noopener">Ver no Google Maps</a></span></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a1 1 0 0 1-1 1A16 16 0 0 1 4 5a1 1 0 0 1 1-1z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></svg></span>
+              <div><strong>Telefone / WhatsApp</strong><span><a href="https://wa.me/5548996625001" target="_blank" rel="noopener">(48) 99662-5001</a></span></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2" fill="none" stroke="currentColor" stroke-width="2"/><path d="M3 7l9 6 9-6" fill="none" stroke="currentColor" stroke-width="2"/></svg></span>
+              <div><strong>E-mail</strong><span>contato@zedosparafusos.com.br</span></div>
+            </li>
+            <li>
+              <span class="contact__icon"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9" fill="none" stroke="currentColor" stroke-width="2"/><path d="M12 7v5l3 2" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></span>
+              <div><strong>Horário</strong><span>Seg a Sex: 7h30 às 18h · Sáb: 8h às 12h</span></div>
+            </li>
+          </ul>
+        </div>
+
+        <form class="form reveal" id="contactForm" data-delay="150" novalidate>
+          <h3>Solicite seu orçamento</h3>
+          <div class="form__row">
+            <div class="field">
+              <label for="nome">Nome</label>
+              <input type="text" id="nome" name="nome" placeholder="Seu nome" required />
+              <small class="field__error"></small>
+            </div>
+            <div class="field">
+              <label for="telefone">Telefone / WhatsApp</label>
+              <input type="tel" id="telefone" name="telefone" placeholder="(00) 00000-0000" required />
+              <small class="field__error"></small>
+            </div>
+          </div>
+          <div class="field">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="voce@empresa.com" required />
+            <small class="field__error"></small>
+          </div>
+          <div class="field">
+            <label for="categoria">Interesse</label>
+            <select id="categoria" name="categoria">
+              <option>Parafusos e fixadores</option>
+              <option>Abrasivos</option>
+              <option>EPIs</option>
+              <option>Ferramentas</option>
+              <option>Outros</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="mensagem">Mensagem</label>
+            <textarea id="mensagem" name="mensagem" rows="4" placeholder="Descreva os itens e quantidades" required></textarea>
+            <small class="field__error"></small>
+          </div>
+          <button type="submit" class="btn btn--yellow btn--block btn--lg">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+            Enviar pelo WhatsApp
+          </button>
+          <p class="form__success" id="formSuccess" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== LOCALIZAÇÃO ===== -->
+    <section class="location" id="localizacao">
+      <div class="container">
+        <div class="location__card reveal">
+          <div class="location__info">
+            <span class="eyebrow">Onde estamos</span>
+            <h2 class="section__title">Venha nos <span class="highlight">visitar</span></h2>
+            <p class="location__address">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-6.2-7-11.5a7 7 0 0 1 14 0C19 14.8 12 21 12 21z" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="9.5" r="2.5" fill="currentColor"/></svg>
+              <span>Rua São João - Morrotes<br />Tubarão - SC, 88708-025</span>
+            </p>
+            <div class="location__actions">
+              <a href="https://www.google.com/maps/dir/?api=1&amp;destination=-28.476818,-49.0295412" target="_blank" rel="noopener" class="btn btn--yellow">
+                Como chegar
+                <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              </a>
+              <a href="https://wa.me/5548996625001" target="_blank" rel="noopener" class="btn btn--ghost">(48) 99662-5001</a>
+            </div>
+          </div>
+          <div class="location__map">
+            <iframe
+              title="Mapa: Zé dos Parafusos em Tubarão - SC"
+              src="https://www.google.com/maps?q=-28.476818,-49.0295412&amp;z=17&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="footer__brand">
+        <a href="#inicio" class="logo logo--light">
+          <img class="logo__img" src="img/logo.png" alt="Zé dos Parafusos" />
+          <span class="logo__icon">
+            <svg viewBox="0 0 40 40" aria-hidden="true">
+              <polygon points="20,2 36,11 36,29 20,38 4,29 4,11" fill="currentColor"/>
+              <circle cx="20" cy="20" r="7" fill="#0A2A66"/>
+              <path d="M16 20h8M20 16v8" stroke="#FFC61A" stroke-width="2.4" stroke-linecap="round"/>
+            </svg>
+          </span>
+          <span class="logo__text">Zé dos <strong>Parafusos</strong></span>
+        </a>
+        <p>Parafusos, fixadores, abrasivos, EPIs, ferramentas e muito mais.</p>
+      </div>
+      <div class="footer__col">
+        <h4>Navegação</h4>
+        <a href="#produtos">Produtos</a>
+        <a href="#diferenciais">Diferenciais</a>
+        <a href="#depoimentos">Clientes</a>
+        <a href="#contato">Contato</a>
+      </div>
+      <div class="footer__col">
+        <h4>Categorias</h4>
+        <a href="#produtos">Parafusos</a>
+        <a href="#produtos">Fixadores</a>
+        <a href="#produtos">Abrasivos</a>
+        <a href="#produtos">EPIs</a>
+      </div>
+      <div class="footer__col">
+        <h4>Redes sociais</h4>
+        <div class="socials">
+          <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="17.5" cy="6.5" r="1.2" fill="currentColor"/></svg></a>
+          <a href="#" aria-label="Facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M14 8h3V4h-3a4 4 0 0 0-4 4v2H7v4h3v7h4v-7h3l1-4h-4V8.5a.5.5 0 0 1 .5-.5z"/></svg></a>
+        </div>
+      </div>
+    </div>
+    <div class="container footer__bottom">
+      <small class="footer__dev">© Todos os direitos reservados · Desenvolvido por <strong>Caio Secco</strong></small>
+    </div>
+  </footer>
+
+  <!-- Botões flutuantes -->
+  <a href="https://wa.me/5548996625001?text=Ol%C3%A1%2C%20Z%C3%A9%20dos%20Parafusos!%20Gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" class="whatsapp-float" aria-label="Falar no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2zm0 18.2a8.2 8.2 0 0 1-4.2-1.1l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.1 5.1 0 0 0 1.1 2.7 11.7 11.7 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.2-.2-.5-.3z"/></svg>
+  </a>
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 19V5M6 11l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
